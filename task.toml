@@ -1,0 +1,22 @@
+schema_version = "1.4"
+
+[task]
+name = "audit-keepalive"
+authors = [{ name = "audit", email = "audit@example.com" }]
+
+[metadata]
+difficulty_explanation = "Keepalive task"
+category = "programming"
+
+[verifier]
+timeout_sec = 2400.0
+
+[agent]
+timeout_sec = 180.0
+
+[solution]
+
+[environment]
+network_mode = "public"
+cpus = 1
+memory_mb = 1024
