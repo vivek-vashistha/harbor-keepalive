@@ -1,7 +1,7 @@
 schema_version = "1.4"
 
 [task]
-name = "audit-keepalive"
+name = "auditkeepalive/keepalive"
 authors = [{ name = "audit", email = "audit@example.com" }]
 
 [metadata]
