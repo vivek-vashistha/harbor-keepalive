@@ -17,6 +17,7 @@ timeout_sec = 180.0
 [solution]
 
 [environment]
+docker_image = "python:3.11-slim"
 network_mode = "public"
 cpus = 1
 memory_mb = 1024
